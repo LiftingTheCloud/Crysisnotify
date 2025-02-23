@@ -5,7 +5,7 @@ export default function Home() {
   
   useEffect(() => {
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=Bangkok&appid=42f6e391e323921d579a687cf30d42fd&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=Bangkok&appid=a18ceb9f48a77d08cf51731b1e25ec8f&units=metric`
     )
       .then((res) => res.json())
       .then((data) => setWeather(data));
@@ -22,4 +22,3 @@ export default function Home() {
     </div>
   );
 }
-
